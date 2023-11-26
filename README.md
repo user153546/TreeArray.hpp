@@ -3,3 +3,13 @@ TreeArray container 树状数组容器
 
 # Usage
 just put it to your workspace folder 将文件放在项目文件夹中
+
+# TreeArray
+this container supports the following operations:
+- push_back()
+- updata()
+- query()
+- clear()
+- size()
+- TreeArray[]
+- Template
