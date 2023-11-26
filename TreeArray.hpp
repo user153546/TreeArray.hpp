@@ -1,6 +1,7 @@
+#include <iostream>
+#include <map>
 #include <vector>
 #define lowbit(x) ((x) & (-x))
-// using namespace std;
 using std::cout;
 using std::map;
 using std::vector;
@@ -77,7 +78,7 @@ public:
         tree.clear();
         num.clear();
     }
-    void print()
+    void show()
     {
         for (auto &y : num)
         {
@@ -89,7 +90,7 @@ public:
         }
         std::cout << "\n";
     }
-    void print(int i)
+    void show(int i)
     {
         if (i < 0 || i > Size)
         {
