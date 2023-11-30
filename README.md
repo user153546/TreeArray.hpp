@@ -21,4 +21,4 @@ TreeArray<int> Array(100);
 Array.push_back(1);
 Array.update(1, 1);
 ```
-this will push 1 into the 1st element of the array and update the value of the 1st element to 1.
+this will push 1 into the 1st element of the array and update the value of the 2nd element to 1.
