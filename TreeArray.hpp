@@ -44,7 +44,7 @@ public:
         Size = n;
         tree.resize(n + 1);
         for (int i = 0; i < nums.size(); i++)
-            update(i, nums[i]);
+            updata(i, nums[i]);
     };
     ~TreeArray(){};
     void updata(int i, T val)
@@ -105,9 +105,9 @@ public:
     }
     void push_back(T val)
     {
-        if (Size == n)
+        if (Size + 1 >= n)
             tree.resize(n * 2);
         n = tree.size();
-        update(Size++, val);
+        updata(Size++, val);
     }
 };
